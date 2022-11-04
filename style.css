@@ -55,7 +55,7 @@ a {
     align-items: center;
     flex-direction: column;
     position: relative;
-    margin-top: 20rem;
+    margin-top: 4rem;
     
 }
 
@@ -70,12 +70,18 @@ a {
     border: none;
 }   
 
+#but:hover {
+  color: #ffd000;
+  background: rgba(51, 49, 49, 0.939);
+  transition: all 0.2s ease-out;
+}
+
 #sec-con {
     display: flex;  
     align-items: center;
     flex-direction: column;
     position: relative;
-    margin-top: 5rem;
+    margin-top: 2rem;
     
  
 }
@@ -83,5 +89,12 @@ a {
 #secret {
     font-size: 1.9rem;
     font-weight: bold;
+    padding-bottom: 1rem;
+}
 
+#secretTwo {
+  width: 40rem;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgb(51,51,51,0.158);
 }
